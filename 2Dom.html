@@ -26,6 +26,7 @@
       <li class="list-group-item">Item 2</li>
       <li class="list-group-item">Item 3</li>
       <li class="list-group-item">Item 4</li>
+      <li>Item 5</li>
     </ul>
    </div>
   </div>
@@ -44,7 +45,8 @@ let headerTitle=document.getElementById('header-title')
 headerTitle.style.border='solid 2px black'
 document.getElementsByClassName("list-group")[0].style.color='blue'
 document.getElementsByClassName('list-group-item')[2].style.color='green'
-
+// console.log(document.getElementsByClassName('list-group-item'))
+document.getElementsByTagName('li')[4].style.color='red'
   </script>
 </body>
 </html>
